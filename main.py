@@ -35,5 +35,6 @@ if __name__ == "__main__":
             else:
                 print('BAD PROBLEM!')
 
+        #task 3
         solImagePath = getSolutionImage(newSolution, f'outData/{i}.png')
         go = input('NEXT:')

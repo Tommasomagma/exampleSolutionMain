@@ -13,7 +13,7 @@ def getNewProblem(problemImageUrl, prompt):
         image = Image.open(BytesIO(image_data))
         input.append(image)
 
-    client = genai.Client(api_key='X')
+    client = genai.Client(api_key='AIzaSyCr_T8Zowta35sZ7b82XdycAERZvPosN7o')
 
     response = client.models.generate_content(
     model='gemini-2.5-flash',
